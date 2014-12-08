@@ -9,5 +9,6 @@ gem 'bundler'
 
 gem 'jekyll'
 gem 'rack-jekyll'
-gem 'thin'
+gem 'puma'
+gem 'rake'
 gem 'kramdown'

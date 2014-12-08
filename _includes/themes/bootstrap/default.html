@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="{{ ASSET_PATH }}/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ ASSET_PATH }}/css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <!--[if lt IE 9]>
       <script src="{{ ASSET_PATH }}/resources/respond/Respond.min.js"></script>
     <![endif]-->
@@ -29,7 +29,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="" href="{{ HOME_PATH }}"><img src="{{ ASSET_PATH }}/img/dori-logo.png"></a>
+          <a class="" href="{{ HOME_PATH }}"><img src="images/dori-logo.png"></a>
         </div>
 
         <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -39,23 +39,15 @@
             <li><a href="{{ BASE_PATH }}/umzugtips.html">_Umzugstips</a></li>
             <li><a href="{{ BASE_PATH }}/impressum.html">_Impressum</a></li>
           </ul>
+          <img class="logo-badge" src="images/badge.png">
           <ul class="nav navbar-nav navbar-right">
-            <li><img src="{{ ASSET_PATH }}/img/logo_Umzugsunternehmen.png"></li>
+            <li><img src="images/logo_Umzugsunternehmen.png"></li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="container">
+    <div class="content container{% if page.class %} {{ page.class }}{% endif %}">
       {{ content }}
-      <hr>
-      <footer>
-        <p>
-          &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-          <span class="pull-right text-muted">
-
-          </span>
-        </p>
-      </footer>
     </div>
 
     {% include JB/analytics %}

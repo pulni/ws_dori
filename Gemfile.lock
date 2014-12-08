@@ -7,8 +7,6 @@ GEM
     colorator (0.1)
     commander (4.1.6)
       highline (~> 1.6.11)
-    daemons (1.1.9)
-    eventmachine (1.0.3)
     fast-stemmer (1.0.2)
     ffi (1.9.3)
     highline (1.6.21)
@@ -33,6 +31,8 @@ GEM
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.9)
+    puma (2.10.2)
+      rack (>= 1.1, < 2.0)
     pygments.rb (0.5.4)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
@@ -40,6 +40,7 @@ GEM
     rack-jekyll (0.4.1)
       jekyll (>= 0.12.0, < 2.0)
       rack (~> 1.5.0)
+    rake (10.4.2)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -47,10 +48,6 @@ GEM
       ffi (>= 0.5.0)
     redcarpet (2.3.0)
     safe_yaml (1.0.3)
-    thin (1.6.2)
-      daemons (>= 1.0.9)
-      eventmachine (>= 1.0.0)
-      rack (>= 1.0.0)
     toml (0.1.1)
       parslet (~> 1.5.0)
     yajl-ruby (1.1.0)
@@ -62,5 +59,6 @@ DEPENDENCIES
   bundler
   jekyll
   kramdown
+  puma
   rack-jekyll
-  thin
+  rake
