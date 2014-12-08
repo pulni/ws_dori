@@ -1,0 +1,118 @@
+
+body{
+  background: #000;
+}
+.navbar-inverse {
+  background-color: #000;
+  border-color: #000;
+  height: 80px;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+  color: #fff;
+  height: 80px;
+  line-height: 78px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.navbar-inverse .navbar-collapse{
+  position: relative;
+}
+
+.navbar-inverse .logo-badge{
+  height: 197px;
+  width: 197px;
+  position:absolute;
+  top: 54px;
+  left: 610px;
+}
+
+.container{
+  color:#ffffff;
+}
+.content{
+  padding: 0 70px;
+}
+
+.container a{
+  color: #fff;
+  text-decoration: none;
+}
+.container .left{
+  width: 440px;
+}
+
+.container h1{
+  font-size: 60px;
+  margin: 100px 0 20px 0;
+}
+
+
+.container hr.thick{
+  width: 200px;
+  border: 3px solid #ffffff;
+  margin-left:0;
+}
+
+.container hr.thin{
+  width: 200px;
+  border: 1px solid #ffffff;
+  margin-left:0;
+}
+
+.container .bold{
+  font-weight: bold;
+}
+
+.container .whitespace{
+  margin: 30px 0;
+  font-size: 16px;
+}
+
+.container p.address{
+  background-color: #020202;
+  float: left;
+  clear: both;
+  margin: 0;
+  padding: 5px;
+}
+
+.container p.tel{
+  background-color: #03c0fe;
+  float: left;
+  clear: both;
+  margin: 0;
+  padding: 5px;
+}
+
+.container .address_area{
+  margin-bottom: 20px;
+  display: block;
+  float: left;
+}
+
+.container.index{
+  background-image: url('/images/01_startseite.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  min-height: 1000px
+}
+.container.service{
+  background-image: url('/images/02_service.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  min-height: 1000px
+}
+.container.tips{
+  background-image: url('/images/03_tipps.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  min-height: 1000px
+}
+.container.impressum{
+  background-image: url('/images/04_impressum.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  min-height: 1000px
+}
