@@ -92,6 +92,36 @@ body{
   float: left;
 }
 
+body.index{
+    background: url(/images/01_startseite.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body.service{
+    background: url(/images/02_service.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body.tips{
+    background: url(/images/03_tipps.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body.impressum{
+    background: url(/images/04_impressum.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*
 .container.index{
   background-image: url('/images/01_startseite.jpg');
   background-repeat: no-repeat;
@@ -99,7 +129,7 @@ body{
   min-height: 1000px
 }
 .container.service{
-  background-image: url('/images/02_service.jpg');
+  background-image: url('/images/images/02_service.jpg.jpg');
   background-repeat: no-repeat;
   background-position: center top;
   min-height: 1000px
@@ -116,3 +146,4 @@ body{
   background-position: center top;
   min-height: 1000px
 }
+*/
